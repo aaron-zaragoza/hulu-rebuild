@@ -1,6 +1,6 @@
 import axios from '../axios';
 import React, { useEffect, useState } from 'react';
-import requests from '../requests';
+import requests from '../api_requests/requests';
 import '../results.css';
 import VideoCard from './VideoCard';
 
