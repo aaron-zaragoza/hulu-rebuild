@@ -21,6 +21,18 @@
 
 .videoCard > h2 {
     padding-top: 8px;
+    opacity: 0.7;
+}
+
+.videoCard:hover > h2 {
+    opacity: 1;
+}
+.videoCard > p {
+    opacity: 0.7;
+}
+
+.videoCard:hover > p {
+    opacity: 1;
 }
 
 .videoCard__stats {
@@ -29,4 +41,5 @@
 
 .videoCard:hover > .videoCard__stats {
     display: inline;
+    align-items: center;
 }

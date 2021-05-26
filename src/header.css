@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     overflow-x: scroll;
+
 }
 
 /* Hide scroll for Chrome, Safari, and Opera */
