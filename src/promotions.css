@@ -1,0 +1,35 @@
+.promotions {
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.promo__icons > img {
+    width: 300px;
+}
+
+.promo__details > h4 {
+    color: rgb(56, 145, 147);
+}
+
+.promo__details > p {
+    color: white;
+    font-size: xx-large;
+    font-weight: 300;
+}
+
+.promotions > button {
+    background-color: white !important;
+    color: black !important;
+    margin-top: 8px;
+    text-transform: inherit;
+    font-weight: 600;
+    padding: 15px !important;
+}
+
+.promotions > button:hover {
+    background-color: lightgrey !important;
+}

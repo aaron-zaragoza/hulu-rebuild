@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
+import Results from './views/Results';
 import Nav from './components/Nav';
-import Results from './components/Results';
+import Home from './views/Home';
 import requests from './requests';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
 
@@ -11,9 +13,20 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
-      <Nav setGenre={setGenre} />
-      <Results genre={genre}/>
+      <Router>
+
+        <Switch>
+          <Route path="/watch">
+            <Header />
+            <Nav setGenre={setGenre} />
+            <Results genre={genre}/>
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+
+      </Router>
     </div>
   );
 }

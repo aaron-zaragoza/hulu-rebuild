@@ -1,0 +1,46 @@
+.banner {
+    background: url("https://www.hulu.com/static/hitch/s3/attachments/ckcwdtio02dgg185l460dju6v-ckbkz1ri3001u1uzskrxytzjq-homepage-masthead-test-desktop-3200x1320-v4c-6-16-20.jpg") no-repeat center fixed;
+    height: 75vh;
+    position: relative;
+    background-size: cover;
+    color: white;
+
+}
+
+.banner__info {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.banner__info > img {
+    width: 300px;
+    margin-bottom: 25px;
+}
+.banner__info > h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.banner__info > h3 {
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+.banner__info > h4 {
+    margin-bottom: 25px;
+    color: rgb(56, 145, 147);
+}
+
+.banner__info > button {
+    background-color: white !important;
+    color: black !important;
+    margin-top: 8px;
+    text-transform: inherit;
+    font-weight: 600;
+    padding: 15px !important;
+}
+
+.banner__info > button:hover {
+    background-color: lightgrey !important;
+}

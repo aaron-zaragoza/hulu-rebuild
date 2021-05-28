@@ -2,7 +2,7 @@ import axios from '../axios';
 import React, { useEffect, useState } from 'react';
 import requests from '../requests';
 import '../results.css';
-import VideoCard from './VideoCard';
+import VideoCard from '../components/VideoCard';
 import FlipMove from 'react-flip-move';
 
 function Results({ genre }) {
