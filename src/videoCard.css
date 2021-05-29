@@ -6,8 +6,6 @@
     transition: transform 100ms ease-out;
 }
 
-
-
 .videoCard:hover {
     transform: scale(1.05);
     cursor: pointer;

@@ -4,6 +4,8 @@
     overflow-x: scroll;
     padding: 10px;
     padding-left: 50px;
+    background-color: #111;
+
 }
 
 /* Hide scroll for Chrome, Safari, and Opera */

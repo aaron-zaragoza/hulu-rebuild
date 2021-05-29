@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Home from './views/Home';
 import requests from './requests';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import MovieBanner from './components/MovieBanner';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Switch>
           <Route path="/watch">
             <Header />
+            <MovieBanner />
             <Nav setGenre={setGenre} />
             <Results genre={genre}/>
           </Route>

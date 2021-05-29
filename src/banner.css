@@ -27,7 +27,7 @@
     margin-bottom: 25px;
     font-weight: 300;
 }
-.banner__info > h4 {
+.banner__info > h5 {
     margin-bottom: 25px;
     color: rgb(56, 145, 147);
 }
@@ -43,4 +43,5 @@
 
 .banner__info > button:hover {
     background-color: lightgrey !important;
+    color: black;
 }

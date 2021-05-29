@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 30px;
+    background-image: linear-gradient(to right, #051421, #22403a);
 }
 
 .promo__icons > img {
@@ -21,15 +22,17 @@
     font-weight: 300;
 }
 
-.promotions > button {
-    background-color: white !important;
-    color: black !important;
+button {
+
+    color: white !important;
+    border: 2px solid white !important;
     margin-top: 8px;
     text-transform: inherit;
-    font-weight: 600;
+    font-weight: 600 !important;
     padding: 15px !important;
 }
 
-.promotions > button:hover {
-    background-color: lightgrey !important;
+button:hover {
+    border-color: gray !important;
+    color: gray !important;
 }
