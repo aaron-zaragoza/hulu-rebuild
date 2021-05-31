@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../header.css';
 import HomeIcon from '@material-ui/icons/Home';
-import FlashOnIcon from '@material-ui/icons/FlashOn';
 import LiveTvIcon from '@material-ui/icons/LiveTv';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import SearchIcon from '@material-ui/icons/Search';
@@ -51,7 +50,7 @@ function Header() {
                 </div>
             </div>
             <div>
-                <img className="header__logo" src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt="Hulu Logo" />
+                <img onClick={() => history.push('/')} className="header__logo" src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" alt="Hulu Logo" />
             </div>
         </div>
     )

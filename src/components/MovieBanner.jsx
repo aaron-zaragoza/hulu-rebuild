@@ -4,7 +4,6 @@ import axios from '../axios';
 import requests from '../requests';
 import '../movieBanner.css';
 
-
 function MovieBanner() {
 
     const [movie, setMovie] = useState([]);

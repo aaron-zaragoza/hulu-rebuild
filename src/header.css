@@ -55,3 +55,7 @@
     object-fit: contain;
     height: 80px;
 }
+
+.header__logo:hover {
+    cursor: pointer;
+}

@@ -1,7 +1,6 @@
 import React, { forwardRef } from 'react';
 import '../videoCard.css';
 import TextTruncate from 'react-text-truncate';
-import Star from '@material-ui/icons/Star';
 
 const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
