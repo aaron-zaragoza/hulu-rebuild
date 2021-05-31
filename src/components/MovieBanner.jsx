@@ -3,8 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from '../axios';
 import requests from '../requests';
 import '../movieBanner.css';
-import Header from './Header';
-import zIndex from '@material-ui/core/styles/zIndex';
+
 
 function MovieBanner() {
 

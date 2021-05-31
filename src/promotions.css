@@ -6,6 +6,7 @@
     justify-content: space-between;
     padding: 30px;
     background-image: linear-gradient(to right, #051421, #22403a);
+    min-width: 1250px
 }
 
 .promo__icons > img {
