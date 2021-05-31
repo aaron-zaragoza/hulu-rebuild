@@ -6,9 +6,11 @@ import LiveTvIcon from '@material-ui/icons/LiveTv';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import SearchIcon from '@material-ui/icons/Search';
 import PersonOutlineIcon from '@material-ui/icons/PersonOutline';
+import { useHistory } from "react-router-dom";
 
 function Header() {
 
+    const history = useHistory();
     const [show, handleShow] = useState(false);
 
     useEffect(() => {
@@ -27,7 +29,7 @@ function Header() {
     return (
         <div className={`header ${show && "header__black"}`}>
             <div className="header__icons">
-                <div className="header__icon">
+                <div onClick={() => history.push('/')} className="header__icon">
                     <HomeIcon />
                     <p>Home</p>
                 </div>
