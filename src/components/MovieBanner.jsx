@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import axios from '../axios';
 import requests from '../requests';
 import '../movieBanner.css';
+import Loading from './Loading';
 
 function MovieBanner() {
 
@@ -21,8 +22,11 @@ function MovieBanner() {
         fetchData();
     }, [])
 
-    return (
+    if (movie === []) {
+        return <Loading />
+    }
 
+    return (
             <header className="movieBanner" 
             style={{
                 backgroundSize: "cover",

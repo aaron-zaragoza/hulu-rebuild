@@ -3,7 +3,6 @@ import React from 'react';
 import '../banner.css';
 import { useHistory } from "react-router-dom";
 
-
 function Banner() {
     const history = useHistory();
 

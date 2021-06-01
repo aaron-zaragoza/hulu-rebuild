@@ -37,7 +37,8 @@ function Header() {
                     <p>Home</p>
                 </div>
                 <div
-                    onClick={() => setButtonPopup(true)} className="header__icon">
+                    onClick={() => setButtonPopup(true)}
+                    className="header__icon">
                     <LiveTvIcon />
                     <p>Live TV</p>
                 </div>

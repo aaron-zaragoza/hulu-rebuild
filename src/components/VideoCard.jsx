@@ -5,11 +5,12 @@ import TextTruncate from 'react-text-truncate';
 const BASE_URL = "https://image.tmdb.org/t/p/original/";
 
 const VideoCard = forwardRef(({ movie }, ref) => {
+
     return (
         <div ref={ref} className="videoCard">
             <img
             src={`${BASE_URL}${movie.backdrop_path || movie.poster_path}`}
-            alt="Movie Poster" />
+            alt="Movie Poster"/>
             <TextTruncate 
                 line={2}
                 element="p"
