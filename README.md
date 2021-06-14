@@ -4,4 +4,4 @@ This project was inspired by the popular movie and television streaming app, Hul
 
 Link: https://hulu-rebuild-fd67d.web.app/
 
-![Alt Text](https://media.giphy.com/media/WAp4Kcaxs4QAz9dfrk/giphy.gif)
+![Alt Text](https://media.giphy.com/media/7t9d2A1LBoe56Yd6Iz/giphy.gif)
